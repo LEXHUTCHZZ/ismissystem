@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { auth, db } from "../../../lib/firebase";
+import { auth, db } from "../../../lib/firebase"; // Use named imports
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { doc, getDoc } from "firebase/firestore";
 import { useRouter } from "next/navigation";
@@ -42,7 +42,7 @@ export default function Login() {
     <div
       className="min-h-screen flex items-center justify-center"
       style={{
-        backgroundImage: "url('https://mypcc.edu.jm/img/bg-img/bg-1.jpg')",
+        backgroundImage: "url('https://www.pcc.edu.jm/img/blog-img/1.jpg')",
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
